@@ -1,0 +1,13 @@
+version: '3'
+services:  
+    project_server:    
+        build:  './Server' 
+        ports:       
+            - "50051:50051"  
+         
+    project_client:   
+        build:  './Client'
+        depends_on:     
+            - "project_server"    
+
+

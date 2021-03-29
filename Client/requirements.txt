@@ -1,0 +1,5 @@
+grpcio
+pandas
+flask
+redis
+googleapis-common-protos
